@@ -23,8 +23,11 @@ def tokenize(input_string, tokens):
                 string = string[match_str_len:]
     return output
 
-if __name__ == '__main__':
+def main():
     while True:
         user_input = input('> ')
         output = tokenize(user_input, TOKEN_MAP)
         print(output)
+
+if __name__ == '__main__':
+    main()
