@@ -21,6 +21,7 @@ def tokenize(input_string, tokens):
                 match_str_len = len(match_str)
                 output.append((match.group(), token_id))
                 string = string[match_str_len:]
+                break
     return output
 
 def main():
