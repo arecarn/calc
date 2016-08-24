@@ -7,6 +7,7 @@ TOKEN_MAP = OrderedDict([
     (r'/', 'mul'),
     (r'\-', 'add'),
     (r'\+', 'add'),
+    (r'\s+', 'space'),
     (r'.*', 'unknown'),
 ])
 
