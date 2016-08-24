@@ -20,9 +20,7 @@ def tokenize(input_string, tokens):
                 match_str = match.group()
                 match_str_len = len(match_str)
                 output.append((match.group(), token_id))
-                print("before="+string)
                 string = string[match_str_len:]
-                print("after="+string)
     return output
 
 if __name__ == '__main__':
