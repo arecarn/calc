@@ -2,7 +2,7 @@ import re
 from collections import OrderedDict
 
 TOKEN_MAP = OrderedDict([
-    (r'\d+([.]\d+)?|.\d+', 'num'),
+    (r'\d+([.]\d+)?|\.\d+', 'num'),
     (r'[*]', 'mul'),
     (r'/', 'mul'),
     (r'\-', 'add'),
