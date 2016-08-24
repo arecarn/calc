@@ -1,0 +1,8 @@
+# python files
+__pycache__/
+*.pyc
+
+# pyinstaller files
+dist/
+build/
+*.spec
